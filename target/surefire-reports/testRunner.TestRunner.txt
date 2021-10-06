@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 2.515 s <<< FAILURE! - in testRunner.TestRunner
+Given user is on amazon login page(| 5195050401 | jaimin@123 |)  Time elapsed: 0.007 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+No browserName or device specified in session request. Please check our platforms documentation (https://saucelabs.com/docs/platforms): {'sauce:options': {'username': 'jaiminka', 'accessKey': 'XXXXXXXX-XXXX-XXXX-XXXX-XXXX5bce4ce8'}} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.33 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-8GAKHLN', ip: '192.168.2.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+
+| 5195050401 | jaimin@123 |  Time elapsed: 0.008 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+No browserName or device specified in session request. Please check our platforms documentation (https://saucelabs.com/docs/platforms): {'sauce:options': {'username': 'jaiminka', 'accessKey': 'XXXXXXXX-XXXX-XXXX-XXXX-XXXX5bce4ce8'}} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.33 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-8GAKHLN', ip: '192.168.2.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+
